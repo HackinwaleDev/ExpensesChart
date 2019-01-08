@@ -107,6 +107,8 @@ function drawExpensesChart(){
                             .attr('class', 'line-path')
                           .datum(monthlyExpenses)
                             .attr('d', line)
+            // implement Tooltip for when moveover
+            
             // Let's define the area too
             var area = d3.area()
                             .curve(d3.curveMonotoneX)

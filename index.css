@@ -1,0 +1,28 @@
+/* Define style for the chart here */
+.container text{
+    fill: lightslategray;
+}
+
+.grid line {
+    stroke: lightgrey;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+.grid path {
+    stroke-width: 0;
+}
+
+.x-axis path {
+    stroke-width: 0;
+}
+.line-path{
+    stroke: url(#line-gradient);
+    stroke-width: 3px;
+    fill: none;
+    shape-rendering: geometricPrecision;
+}
+.area-path{
+    /* fill: skyblue; */
+    fill: url(#line-gradient);
+    fill-opacity: 0.2;
+}

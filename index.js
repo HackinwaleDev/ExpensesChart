@@ -212,6 +212,8 @@ function drawExpensesChart(){
 }//end drawExpensesChart
 
 // create a logger function
+let debugMode = false;
 function logger(param){
-    console.log(param)
+    if(debugMode)
+        console.log(param)
 }
